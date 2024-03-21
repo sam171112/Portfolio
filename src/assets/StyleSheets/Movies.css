@@ -1,0 +1,36 @@
+#MovieTypes
+{
+
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    border-radius: 10px;
+
+}
+.SubDiv
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    width: 300px;
+    border-radius: 10px;
+}
+.MoviesImg
+{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.Div1
+{
+    display: grid;
+    grid-template-columns: repeat(4,auto) ;
+    gap: 10px;
+    
+}

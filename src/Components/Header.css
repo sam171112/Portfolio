@@ -1,0 +1,48 @@
+.Header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    color: white;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+.NavList
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+ul
+{
+    display: flex;
+    gap: 30px;
+    list-style: none; 
+    text-decoration: none;
+    margin-right: 50px; 
+}
+.Link
+{
+    text-decoration: none; 
+    color: white;
+}
+.logo
+{
+    width: 100px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.footer
+{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
